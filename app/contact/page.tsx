@@ -20,13 +20,13 @@ const page = () => {
         done and ready to hang up on your living room wall. Standard formats are
         50*70 cm or 60*80 cm. But can also offer custom measurements and custom
         frames.
-      </p>{" "}
+      </p>
       <p>
-        This is a slightly more "premium" service and thus slightly higher
-        priced. But something I highly recommend in order to give that personal
-        touch to your home whilst at the same time preserving a special memory
-        to show for your friends and family. Don't hesitate to contact me for
-        further dialogue.
+        This is a slightly more premium service and thus slightly higher priced.
+        But something I highly recommend in order to give that personal touch to
+        your home whilst at the same time preserving a special memory to show
+        for your friends and family. Don't hesitate to contact me for further
+        dialogue.
       </p>
     </div>
   );
