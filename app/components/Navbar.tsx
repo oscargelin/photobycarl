@@ -41,7 +41,7 @@ const Navbar = () => {
         </Link>
         <Link
           style={{ textDecoration: "none", color: "white" }}
-          href={"/contact"}
+          href={"https://www.instagram.com/aphotographersperspective/"}
         >
           Contact
         </Link>
