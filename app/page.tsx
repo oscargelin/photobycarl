@@ -4,7 +4,9 @@ import { images } from "../app/gallery/images";
 
 export default function Home() {
   const cars = images.map((car) => {
-    return <Image src={car.url} alt={car.alt} width={375} />;
+    return (
+      <Image src={car.url} alt={car.alt} width={375} key={car.url + car.id} />
+    );
   });
   return (
     <main style={{ backgroundColor: "black", color: "white" }}>
