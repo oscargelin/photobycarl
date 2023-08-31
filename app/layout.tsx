@@ -19,9 +19,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" style={{ backgroundColor: "black", color: "white" }}>
-      <Navbar />
       <body className={inter.className}>
-        {children} <Footer />
+        <Navbar />
+        {children}
+        <Footer />
       </body>
     </html>
   );
