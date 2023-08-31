@@ -22,15 +22,9 @@ const Navbar = () => {
           paddingBottom: "30px",
         }}
       >
-        {/* <Link style={{ textDecoration: "none", color: "white" }} href={"/"}>
+        <Link style={{ textDecoration: "none", color: "white" }} href={"/"}>
           Home
         </Link>
-        <Link
-          style={{ textDecoration: "none", color: "white" }}
-          href={"/gallery"}
-        >
-          Gallery
-        </Link> */}
         <Link
           style={{ textDecoration: "none", color: "white" }}
           href={"https://www.instagram.com/aphotographersperspective/"}
@@ -41,7 +35,7 @@ const Navbar = () => {
         </Link>
         <Link
           style={{ textDecoration: "none", color: "white" }}
-          href={"https://www.instagram.com/aphotographersperspective/"}
+          href={"/contact"}
         >
           Contact
         </Link>
