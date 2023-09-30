@@ -2,17 +2,17 @@ import Link from "next/link";
 import React from "react";
 
 const Navbar = () => {
+  const mobileMenu = "py-0.5 px-3 rounded bg-white mb-1.5";
+
   return (
     <nav>
-      <h1
-        style={{
-          display: "flex",
-          justifyContent: "center",
-        }}
-      >
-        <Link style={{ textDecoration: "none", color: "white" }} href="/">
-          A Photographs Perspective
-        </Link>
+      <h1 className="flex justify-between">
+        <Link href="/">PhotoByCarl</Link>
+        <div className="flex justify-center flex-col w-8 cursor-pointer">
+          <div className={mobileMenu}></div>
+          <div className={mobileMenu}></div>
+          <div className={mobileMenu}></div>
+        </div>
       </h1>
       <div
         style={{
@@ -22,23 +22,15 @@ const Navbar = () => {
           paddingBottom: "30px",
         }}
       >
-        <Link style={{ textDecoration: "none", color: "white" }} href={"/"}>
-          Home
-        </Link>
+        <Link href={"/"}>Home</Link>
         <Link
-          style={{ textDecoration: "none", color: "white" }}
           href={"https://www.instagram.com/aphotographersperspective/"}
           target="_blank"
           rel="noopener noreferrer"
         >
           Instagram
         </Link>
-        <Link
-          style={{ textDecoration: "none", color: "white" }}
-          href={"/contact"}
-        >
-          Contact
-        </Link>
+        <Link href={"/contact"}>Contact</Link>
       </div>
     </nav>
   );

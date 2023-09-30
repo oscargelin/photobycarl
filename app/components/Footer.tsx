@@ -10,11 +10,11 @@ const Footer = () => {
         flexDirection: "column",
         alignItems: "center",
         justifyContent: "space-evenly",
-        padding: "20px 0",
+        padding: "30px 0",
       }}
     >
-      <h3>CarlGelin@gmail.com</h3>
-      <h3>07013371337</h3>
+      <h3>carlgelin@gmail.com</h3>
+      <h3>+46725252522</h3>
     </footer>
   );
 };
